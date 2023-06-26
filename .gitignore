@@ -1,0 +1,14 @@
+node_module/*
+
+*.lock
+
+.env
+node_modules
+
+dist
+
+*.code-workspace
+
+.vscode/
+
+usecase.drawio
