@@ -9,11 +9,12 @@ import Homepage from '@/pages/Homepage';
 import ConfigPage from '@/pages/Configs';
 import NotFoundPage from '@/pages/404';
 import CrossTradePage from '@/pages/CrossTradePage';
+import AuthLayout from '@/layouts/auth';
 
 export const routes: RouteObject[] = [
     {
         path: '/dang-nhap',
-        element: <VoidLayout />,
+        element: <AuthLayout />,
         children: [
             {
                 index: true,

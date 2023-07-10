@@ -30,7 +30,7 @@ export default function LoginPage() {
     } = useLoginController();
 
     return (
-        <div className="w-full min-h-screen flex flex-wrap justify-center items-center p-4 bg-gradient-to-bl from-[#c850c0] to-[#4158d0]">
+        <div>
             <Helmet>
                 <title>Sign In</title>
             </Helmet>
